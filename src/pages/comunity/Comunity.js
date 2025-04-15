@@ -79,7 +79,7 @@ const Comunity = () => {
                     />
                 </div>
             </div>
-            <div className="container">
+            <div className="container" data-aos="fade-up">
                 <div className="send d-lg-flex justify-content-between align-items-center">
                     <img src={newsletter} alt="" />
                     <div className="head  me-4">
