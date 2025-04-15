@@ -9,7 +9,7 @@ const Signin = ({ sign }) => {
         <div className="sign pt-5 pb-5">
             <img src={ImageBack2} className="img2" alt="" />
             <img src={ImageBack1} className="img1" alt="" />
-            <div className="container pt-5 pb-5 mt-5">
+            <div className="container pt-5 pb-5 mt-5" data-aos="fade-up">
                 <div className="cont mx-auto text-center">
                     <h3>
                         {sign === "signup"

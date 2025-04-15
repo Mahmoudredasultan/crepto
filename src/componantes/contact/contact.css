@@ -1,6 +1,5 @@
 .contact {
     background-color: var(--second-section-color);
-    position: relative;
 }
 .contact .img {
     position: absolute;

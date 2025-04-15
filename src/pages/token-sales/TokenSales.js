@@ -4,7 +4,7 @@ import Image from "../../images/payment-method.svg";
 const TokenSales = () => {
     return (
         <divn className="token-sales pt-5 pb-5">
-            <div className="container pt-5 mt-5">
+            <div className="container pt-5 mt-5" data-aos="fade-up">
                 <h3 className="text-center">CRYPTO FEATURE</h3>
                 <h1 className="header text-center">Token Sale</h1>
                 <p className="text-center mx-auto">
