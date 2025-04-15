@@ -93,3 +93,14 @@
 .token-sales .cont-2 .button {
     width: fit-content;
 }
+@media (max-width: 991px) {
+    .token-sales .cont {
+        flex-direction: column;
+    }
+    .token-sales .cont-2 {
+        width: 100%;
+    }
+    .token-sales .cont-2 h1 {
+        font-size: 30px;
+    }
+}

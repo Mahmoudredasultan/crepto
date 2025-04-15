@@ -28,11 +28,66 @@ const Navbar = () => {
             data-aos="fade-down"
         >
             <div className="container d-flex justify-content-between align-items-center">
+                <ul className=" mobile  d-lg-none">
+                    <li>
+                        <Link to="/" className="active">
+                            Home
+                        </Link>
+                    </li>
+                    <li>
+                        <a href="#features">Features</a>
+                    </li>
+                    <li>
+                        <a href="#roadmap">Roadmap</a>
+                    </li>
+                    <li className="position-relative page">
+                        <a
+                            onClick={() => {
+                                if (clicked) {
+                                    document.querySelector(
+                                        ".navbar1 .mobile ul"
+                                    ).style.height = "0";
+                                    document.querySelector(
+                                        ".navbar1 .mobile"
+                                    ).style.height = "220px";
+                                    setClicked(false);
+                                } else {
+                                    document.querySelector(
+                                        ".navbar1 .mobile ul"
+                                    ).style.height = "264px";
+                                    document.querySelector(
+                                        ".navbar1 .mobile"
+                                    ).style.height = "auto";
+                                    setClicked(true);
+                                }
+                            }}
+                        >
+                            Pages{" "}
+                            <i className="fas fa-regular fa-chevron-down"></i>
+                        </a>
+                        <ul className="shadow-sm">
+                            <li>
+                                <Link to="/sales">sales page</Link>
+                                <Link to="products">products page</Link>
+                                <Link to="/comunity">comunity page</Link>
+                                <Link to="/contact">contact page</Link>
+                                <Link to="/signup">signup page</Link>
+                                <Link to="/login">signin page</Link>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#contact">Support</a>
+                    </li>
+                    <li>
+                        <div></div>
+                    </li>
+                </ul>
                 <a className="logo" href="#">
                     <img src={logo} alt="" />
                 </a>
                 <div className="cont d-flex align-items-center">
-                    <ul className=" d-lg-flex justify-content-between align-items-center ">
+                    <ul className=" d-lg-flex no justify-content-between align-items-center ">
                         <li>
                             <Link to="/" className="active">
                                 Home

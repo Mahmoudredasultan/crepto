@@ -8,7 +8,19 @@ function Icon({ setOpend }) {
     return (
         <div
             onClick={() => {
-                clicked ? setClicked(false) : setClicked(true);
+                if (clicked) {
+                    document.querySelector(".navbar1 .mobile").style.height =
+                        "0";
+                    document.querySelector(".navbar1 .mobile").style.overflow =
+                        "hidden";
+                    setClicked(false);
+                } else {
+                    document.querySelector(".navbar1 .mobile").style.height =
+                        "220px";
+                    document.querySelector(".navbar1 .mobile").style.overflow =
+                        "visible";
+                    setClicked(true);
+                }
             }}
             className="icon d-lg-none"
         >
