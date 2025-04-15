@@ -1,0 +1,95 @@
+.token-sales p {
+    max-width: 590px;
+    color: var(--pargraf-color);
+}
+.token-sales h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--blue-color);
+}
+.token-sales .cont-1 h3 {
+    color: white;
+    margin-bottom: 28px;
+}
+.token-sales .cont-1 ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+.token-sales .cont-1 ul li p {
+    margin: 0;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.token-sales .cont-2 {
+    padding: 64px 56px;
+    flex: 1;
+    background-color: var(--box-color);
+    border-radius: 7px;
+}
+.token-sales .cont-2 h1 {
+    font-size: 45px;
+    font-weight: 700;
+}
+.token-sales .cont-2 p {
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+}
+.token-sales .cont-2 .box {
+    text-align: center;
+}
+.token-sales .cont-2 .draw {
+    max-width: 435px;
+    height: 36px;
+    background-color: #515a95;
+    border-radius: 50px;
+    position: relative;
+}
+.token-sales .cont-2 .draw .fill {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 70%;
+    height: 100%;
+    border-radius: 50px;
+    background-color: var(--blue-color);
+    z-index: 2;
+}
+.token-sales .cont-2 .draw::before {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 100%;
+    top: 0;
+    left: 25%;
+    transform: translateX(-50%);
+    background-color: #384280;
+    z-index: 5;
+}
+.token-sales .cont-2 .draw::after {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 100%;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #384280;
+    z-index: 5;
+}
+.token-sales .cont-2 .draw .line {
+    position: absolute;
+    width: 2px;
+    height: 100%;
+    top: 0;
+    left: 75%;
+    transform: translateX(-50%);
+    background-color: #384280;
+    z-index: 5;
+}
+.token-sales .cont-2 .button {
+    width: fit-content;
+}

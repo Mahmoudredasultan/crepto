@@ -1,0 +1,52 @@
+.faq {
+    background-color: var(--second-section-color);
+    position: relative;
+}
+.faq .img {
+    position: absolute;
+    top: calc(100% - 460px);
+    left: 0;
+}
+.faq p {
+    max-width: 590px;
+    color: var(--pargraf-color);
+}
+.faq h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--blue-color);
+}
+.faq .box {
+    max-width: 600px;
+    padding: 32px 40px;
+    background-color: var(--box-color);
+    border-radius: 10px;
+}
+.faq .box h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    margin: 0;
+}
+.faq .box p {
+    font-size: 16px;
+    font-weight: normal;
+    width: 100%;
+    max-width: 100%;
+    padding-top: 24px;
+    margin: 0;
+}
+.faq .cont1 {
+    cursor: pointer;
+}
+.faq span {
+    background-color: var(--pargraf-color);
+    padding: 0 5px;
+    border-radius: 5px;
+}
+.faq svg {
+    transition: 0.4s;
+}
+.faq .trans {
+    transform: rotate(-180deg);
+}

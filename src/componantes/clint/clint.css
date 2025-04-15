@@ -1,0 +1,57 @@
+.clint {
+    background-color: var(--second-section-color);
+}
+.clint h3 {
+    color: var(--blue-color);
+    font-size: 20px;
+    font-weight: 700;
+}
+.clint p {
+    color: var(--pargraf-color);
+    max-width: 590px;
+    margin: 0;
+}
+.clint .cont {
+    gap: 40px;
+}
+.clint .box {
+    padding: 32px;
+    background-color: var(--box-color);
+    border-radius: 5px;
+    position: relative;
+    width: calc(50% - 20px);
+}
+@media (max-width: 991px) {
+    .clint .box {
+        width: calc(100% - 20px);
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+.clint .box h3 {
+    font-size: 18px;
+    color: white;
+}
+.clint .box p {
+    font-size: 16px;
+    color: var(--pargraf-color);
+}
+.clint .box .text p {
+    color: white;
+    font-size: 14px;
+}
+.clint .box .img {
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+.clint .box .back {
+    position: absolute;
+    right: 0;
+    width: 254px;
+    top: 0;
+}
+.clint .box .cont1 {
+    margin-bottom: 32px;
+}

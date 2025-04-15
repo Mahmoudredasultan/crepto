@@ -1,0 +1,65 @@
+.applcation {
+    position: relative;
+}
+
+.applcation .back {
+    position: absolute;
+    right: 0px;
+    top: calc(100% - 90px);
+    width: 172px;
+    z-index: 1;
+    height: 517px;
+}
+.applcation h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--blue-color);
+}
+.applcation p {
+    font-size: 18px;
+    color: var(--pargraf-color);
+    margin-bottom: 30px;
+}
+.applcation .links a {
+    width: fit-content;
+    padding: 8px 10px;
+    border-radius: 50px;
+
+    background-color: var(--link-color);
+}
+.applcation .links a span {
+    padding: 10px;
+    background-color: var(--blue-color);
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.applcation .links a p {
+    margin: 0;
+    font-size: 16px;
+    color: white;
+}
+.applcation .links .whit span {
+    background-color: white;
+}
+.applcation .links .whit {
+    background-color: transparent;
+    border: 1px solid var(--link-color);
+}
+.applcation .text {
+    width: calc(50% - 20px);
+    margin-right: 40px;
+}
+
+@media (max-width: 991px) {
+    .applcation .container {
+        flex-direction: column;
+    }
+    .applcation .container .text {
+        width: 100%;
+        margin-right: 0;
+    }
+    .applcation img {
+        width: 100%;
+        margin-top: 50px;
+    }
+}

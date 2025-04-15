@@ -1,0 +1,128 @@
+@media (min-width: 991px) {
+    .comunity .cont1 {
+        width: 30%;
+    }
+    .comunity .cont2 {
+        width: calc(70% - 40px);
+    }
+}
+.comunity .cont1 input {
+    width: 70%;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 5%);
+
+    color: white;
+    padding: 12px 20px;
+    border: 1px solid rgba(233, 233, 233, 20%);
+}
+.comunity .search .button {
+    display: flex;
+    width: 48px;
+    height: 48px;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+.comunity .cont1 .search {
+    padding: 24px;
+    margin-bottom: 40px;
+    background-color: var(--box-color);
+    border-radius: 7px;
+}
+.comunity .last-postises h3 {
+    padding-bottom: 16px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.comunity .last-postises {
+    padding: 32px;
+    background-color: var(--box-color);
+    border-radius: 7px;
+    margin-bottom: 40px;
+}
+.comunity .last-postises img {
+    width: 85;
+    border-radius: 7px;
+    height: 75px;
+}
+.comunity .last-postises .last-post {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    border-top: 1px solid rgba(233, 233, 233, 20%);
+}
+.comunity .last-postises .last-post :last-child {
+    padding-bottom: 0;
+}
+
+.comunity .last-postises .last-post p {
+    font-size: 16px;
+    font-weight: normal;
+    color: white;
+}
+.comunity .last-postises .last-post span {
+    font-size: 12px;
+}
+.comunity .cont2 h1 {
+    font-weight: 700;
+    font-size: 36px;
+    margin-bottom: 32px;
+}
+.comunity .cont2 img {
+    width: 100%;
+    border-radius: 7px;
+}
+.comunity .cont2 svg {
+    color: white;
+}
+.comunity .cont2 .post {
+    margin-bottom: 30px;
+}
+.comunity .cont2 p {
+    margin: 0;
+    font-size: 16px;
+    font-weight: normal;
+    color: var(--pargraf-color);
+}
+.comunity .cont2 .data {
+    padding-bottom: 16px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid rgba(233, 233, 233, 20%);
+}
+.comunity .main {
+    font-weight: 600;
+    line-height: 1.8;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgba(233, 233, 233, 20%);
+}
+.comunity .send {
+    background-color: var(--box-color);
+    padding: 48px;
+    position: relative;
+    border-radius: 15px;
+    z-index: 1;
+}
+.comunity .send img {
+    position: absolute;
+    right: 0;
+    z-index: 0;
+    top: 0;
+}
+.comunity .send textarea {
+    background-color: rgba(255, 255, 255, 5%);
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 4;
+    height: 128px;
+    color: white;
+    padding: 12px 20px;
+    border: 1px solid rgba(233, 233, 233, 20%);
+    border-radius: 10px;
+}
+@media (min-width: 991px) {
+    .comunity .send .head {
+        width: 50%;
+    }
+    .comunity .send .head2 {
+        width: 50%;
+    }
+}

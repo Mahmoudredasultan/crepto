@@ -1,0 +1,117 @@
+.sales .container {
+    background-color: #14102c;
+    padding: 64px 32px;
+    border-radius: 5px;
+    flex-wrap: wrap;
+}
+.sales .cont1 {
+    width: 50%;
+}
+@media (max-width: 991px) {
+    .sales .cont1 {
+        width: 100%;
+    }
+}
+.chart-container {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.donut-chart {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: conic-gradient(
+        rgba(35, 71, 185, 1) 0% 39.2%,
+        rgba(51, 99, 255, 1) 39.2% 68.8%,
+        rgba(139, 166, 255, 1) 68.8% 89.2%,
+        rgba(134, 150, 202, 1) 89.2% 100%
+    );
+}
+
+.chart-center {
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    background: var(--main-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    z-index: 2;
+}
+
+.label {
+    position: absolute;
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+}
+
+/* تحديد أماكن النسب داخل الدائرة */
+.label-1 {
+    top: 99px;
+    right: 11px;
+}
+
+.label-2 {
+    bottom: 17px;
+    right: 115px;
+}
+
+.label-3 {
+    bottom: 135px;
+    left: 11px;
+}
+
+.label-4 {
+    top: 18px;
+    left: 72px;
+}
+.sales .cont {
+    flex: 1;
+}
+.sales .cont h3 {
+    color: var(--blue-color);
+    font-weight: 700;
+    font-size: 20px;
+}
+.sales .cont h1 {
+    font-weight: 700;
+    font-size: 45px;
+}
+.sales .cont p {
+    color: var(--pargraf-color);
+    font-size: 18px;
+    flex: 1;
+}
+.sales .cont ul li {
+    display: flex;
+}
+.sales .cont ul li span {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    border-radius: 50px;
+    margin-right: 20px;
+}
+.sales .cont ul :first-child span {
+    background-color: rgba(35, 71, 185, 1);
+}
+.sales .cont ul :nth-child(2) span {
+    background-color: rgba(51, 99, 255, 1);
+}
+.sales .cont ul :nth-child(3) span {
+    background-color: rgba(139, 166, 255, 1);
+}
+.sales .cont ul :nth-child(4) span {
+    background-color: rgba(134, 150, 202, 1);
+}

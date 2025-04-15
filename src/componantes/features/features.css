@@ -1,0 +1,33 @@
+.features {
+    position: relative;
+}
+.features img {
+    position: absolute;
+    right: 0;
+    top: calc(100% - 131px);
+}
+.features h3 {
+    color: var(--blue-color);
+    font-size: 20px;
+    font-weight: 700;
+}
+.features p {
+    max-width: 590px;
+    color: var(--pargraf-color);
+}
+.features .feature {
+    row-gap: 35px;
+}
+.features .feature .back {
+    padding: 20px;
+    width: fit-content;
+    background-color: var(--blue-color);
+    border-radius: 50px;
+}
+.features .feature p {
+    font-size: 16px;
+}
+.features .feature h3 {
+    font-size: 20px;
+    color: white;
+}

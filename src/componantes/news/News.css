@@ -1,0 +1,63 @@
+.news h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--blue-color);
+}
+.news p {
+    font-size: 18px;
+    color: var(--pargraf-color);
+    max-width: 590px;
+    margin: 0;
+}
+.news .cont {
+    gap: 15px;
+}
+.news .box .text {
+    padding: 24px 28px;
+}
+.news .box img {
+    width: 100%;
+}
+.news .box {
+    border-radius: 10px;
+    padding: 0;
+    width: calc((100% / 3) - 10px);
+    overflow: hidden;
+    background-color: var(--second-section-color);
+}
+@media (max-width: 991px) {
+    .news .box {
+        width: calc(50% - 15px);
+    }
+    .news .cont {
+        gap: 30px;
+    }
+}
+@media (max-width: 771px) {
+    .news .box {
+        width: calc(100% - 20px);
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .news .cont {
+        gap: 30px;
+    }
+}
+.news .box .text h3 {
+    font-size: 20px;
+    color: white;
+}
+.news .box .text .data {
+    font-weight: normal;
+    color: var(--pargraf-color);
+    font-size: 14px;
+}
+.news .box .text .data i {
+    color: white;
+    margin-right: 10px;
+}
+.news .box .text .last {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.8;
+}
